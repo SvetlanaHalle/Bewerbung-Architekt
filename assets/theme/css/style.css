@@ -965,15 +965,6 @@ blockquote {
 }
 
 
-
-
-section.display-7 {
-  display: none !important;
-}
-
-
-
-
 * по умолчанию — без руки */
 
 .item-wrapper {
@@ -998,4 +989,9 @@ section.display-7 {
 
 .item-wrapper:has(a):hover img {
   filter: brightness(0.9);
+}
+
+
+section.display-7 {
+  display: none !important;
 }
