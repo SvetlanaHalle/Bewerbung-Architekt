@@ -963,3 +963,22 @@ blockquote {
 	top: 0;
 	left: -2400px;
 }
+
+
+.item-wrapper {
+  transition: all 0.25s ease;
+  border: 2px solid transparent;
+}
+/* реагируют только подблоки, которые содержат ссылку */
+.item-wrapper:has(a):hover {
+  transform: scale(1.03);
+  border-color: #cfcfcf;
+  background-color: rgba(0,0,0,0.04);
+}
+.item-wrapper:has(a):hover img {
+  filter: brightness(0.9);
+}
+
+section.display-7 {
+  display: none !important;
+}

@@ -795,8 +795,6 @@ a {
 .cid-v5mU62yUip {
   z-index: 1000;
   width: 100%;
-  position: relative;
-  min-height: 60px;
 }
 .cid-v5mU62yUip nav.navbar {
   position: fixed;
@@ -904,7 +902,6 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
   background: #1e2b3f;
 }
 .cid-v5mU62yUip .navbar.opened {
@@ -931,7 +928,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-v5mU62yUip .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3rem);
+    max-height: calc(98.5vh - 4.4rem);
   }
 }
 .cid-v5mU62yUip .navbar.collapsed .dropdown-menu .dropdown-submenu {
@@ -1086,7 +1083,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #edefeb;
+  background-color: #1e2b3f;
 }
 .cid-v5mU62yUip button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1158,7 +1155,7 @@ a {
   }
 }
 .cid-v5iQ4t1JHs {
-  background-image: url("../../../assets/images/stol-u-okna-pravo-1536x1024.webp");
+  background-image: url("../../../assets/images/stol-u-okna-pravo-1-1536x1024.webp");
 }
 .cid-v5iQ4t1JHs .mbr-fallback-image.disabled {
   display: none;
