@@ -969,9 +969,6 @@ blockquote {
 section.display-7 {
   display: none !important;
 }
-
-
-
 /* ===== UNIVERSAL MOBIRISE INTERACTIVE EFFECTS ===== */
 
 /* плавность для всех кликабельных элементов */
@@ -1032,3 +1029,22 @@ a:hover img {
 }
 
 /* ===== END ===== */
+section.display-7 {
+  display: none !important;
+}
+
+/* Active menu item */
+.navbar .nav-link.active {
+  color: #ff6b00 !important;
+  position: relative;
+}
+
+.navbar .nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background-color: #ff6b00;
+}
